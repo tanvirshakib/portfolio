@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+.jumbotron {
+    background-color: #f8f9fa;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.card-deck .card {
+    margin-bottom: 20px;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    margin-bottom: 15px;
+}
+
+.card-text {
+    font-size: 1rem;
+}
+
+.card a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.card a:hover {
+    text-decoration: underline;
+}
+.linktree-logo {
+    width: 40px;
+    height: auto;
+}
