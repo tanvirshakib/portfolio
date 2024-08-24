@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -71,6 +72,45 @@
             cursor: pointer;
         }
 
+
+        nav {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+            padding: 5px 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #ddd;
+        }
+
+        header {
+            background: #fff;
+            padding: 20px 0;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .header-container {
+            width: 80%;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h3 {
+            margin: 0;
+            font-size: 1.8em;
+            color: #333;
+        }
+
         @media (max-width: 768px) {
             .resume-container {
                 padding: 10px;
@@ -98,38 +138,45 @@
         }
     </style>
 </head>
+
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Tanvir Ahmed Shakib</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="resume.html">Resume</a></li>
-                <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
-                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-            </ul>
+
+    <header>
+        <div class="header-container">
+            <h3>Tanvir Ahmed Shakib</h3>
         </div>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
     </nav>
+
+
 
     <div class="resume-container" onclick="window.location.href='Files/Resume_TanvirAhmedShakib.pdf';">
         <div class="resume-header">
             <h1>Tanvir Ahmed Shakib</h1>
             <p>1090 Walnut Woods Ct, San Jose, CA 95122 | (669) 260-4639 | tanvirahmedshakib@gmail.com</p>
-            <p><a href="https://www.linkedin.com/in/tanvirshakib/">linkedin.com/in/tanvirshakib</a> | <a href="https://github.com/tanvirshakib">github.com/tanvirshakib</a></p>
+            <p><a href="https://www.linkedin.com/in/tanvirshakib/">linkedin.com/in/tanvirshakib</a> | <a
+                    href="https://github.com/tanvirshakib">github.com/tanvirshakib</a></p>
         </div>
 
         <div class="resume-section">
             <h5>Professional Summary</h5>
-            <p>Dedicated web developer with extensive experience in full-stack and mobile application development, specializing in Django, React, and Flutter. Proven track record of building robust web applications and mobile solutions, and leading successful projects for new businesses. Strong problem-solving skills, a passion for continuous learning, and a versatile skill set that includes backend, frontend, and graphic design.</p>
+            <p>Dedicated web developer with extensive experience in full-stack and mobile application development,
+                specializing in Django, React, and Flutter. Proven track record of building robust web applications and
+                mobile solutions, and leading successful projects for new businesses. Strong problem-solving skills, a
+                passion for continuous learning, and a versatile skill set that includes backend, frontend, and graphic
+                design.</p>
         </div>
-        
+
         <div class="resume-section">
             <h5>Education</h5>
-            <p><strong>Master of Science in Computer Science</strong> <br> San Francisco Bay University, San Francisco, CA <br> Expected Graduation: August 2024</p>
-            <p><strong>Bachelor of Science in Computer Science and Engineering</strong> <br> Leading University, Sylhet, Bangladesh <br> Graduated: September 2022</p>
+            <p><strong>Master of Science in Computer Science</strong> <br> San Francisco Bay University, San Francisco,
+                CA <br> Expected Graduation: August 2024</p>
+            <p><strong>Bachelor of Science in Computer Science and Engineering</strong> <br> Leading University, Sylhet,
+                Bangladesh <br> Graduated: September 2022</p>
         </div>
 
         <div class="resume-section">
@@ -146,33 +193,43 @@
 
         <div class="resume-section">
             <h5>Professional Experience</h5>
-            <p><strong>Mobile Application Developer | Flamma Soft, Paterson, New Jersey | Remote</strong> <br> June 2022 - November 2022</p>
+            <p><strong>Mobile Application Developer | Flamma Soft, Paterson, New Jersey | Remote</strong> <br> June 2022
+                - November 2022</p>
             <ul>
-                <li>Designed and developed mobile applications using Flutter and Dart, primarily for new businesses.</li>
-                <li>Collaborated with clients to gather requirements and translate them into functional, user-friendly mobile applications.</li>
+                <li>Designed and developed mobile applications using Flutter and Dart, primarily for new businesses.
+                </li>
+                <li>Collaborated with clients to gather requirements and translate them into functional, user-friendly
+                    mobile applications.</li>
             </ul>
             <p><strong>Digital Designer | Staff Asia, Sylhet, Bangladesh</strong> <br> October 2020 - May 2021</p>
             <ul>
                 <li>Designed and developed engaging slides using Articulate software based on provided content.</li>
-                <li>Collaborated with cross-functional teams to gather requirements and deliver visually appealing solutions.</li>
-                <li>Managed and updated website content using WordPress, including designing and uploading new materials.</li>
+                <li>Collaborated with cross-functional teams to gather requirements and deliver visually appealing
+                    solutions.</li>
+                <li>Managed and updated website content using WordPress, including designing and uploading new
+                    materials.</li>
             </ul>
         </div>
 
         <div class="resume-section">
             <h5>Projects</h5>
-            <p><strong>Book Review API Project for Web Services Techniques and REST Technologies class, 2024</strong></p>
+            <p><strong>Book Review API Project for Web Services Techniques and REST Technologies class, 2024</strong>
+            </p>
             <ul>
                 <li>Designed and implemented a RESTful API for managing book reviews using Django.</li>
                 <li>Features included user authentication, CRUD operations, and search functionalities.</li>
             </ul>
             <p><strong>FoodieBot - AI-Powered Restaurant Web App Project for Capstone Project, 2024</strong></p>
             <ul>
-                <li>Architected and developed a comprehensive restaurant management system featuring an AI chatbot for seamless user interaction.</li>
-                <li>Enabled users to place orders, reserve tables, and submit reviews through an intuitive web interface.</li>
-                <li>Equipped admin panel with capabilities to manage menu items, process reservations, and oversee orders efficiently.</li>
+                <li>Architected and developed a comprehensive restaurant management system featuring an AI chatbot for
+                    seamless user interaction.</li>
+                <li>Enabled users to place orders, reserve tables, and submit reviews through an intuitive web
+                    interface.</li>
+                <li>Equipped admin panel with capabilities to manage menu items, process reservations, and oversee
+                    orders efficiently.</li>
                 <li>Integrated AI chatbot to streamline customer service and automate common inquiries.</li>
-                <li>Enhanced operational efficiency and user experience, providing a holistic solution for modern restaurant management.</li>
+                <li>Enhanced operational efficiency and user experience, providing a holistic solution for modern
+                    restaurant management.</li>
             </ul>
             <p><strong>LU (Leading University) Classroom Project for final year project, 2022</strong></p>
             <ul>
@@ -182,7 +239,8 @@
             <p><strong>Pay Fee Project for third year project, 2021</strong></p>
             <ul>
                 <li>Developed an Android application using Java to help students pay tuition fees electronically.</li>
-                <li>Simplified the payment process for Leading University, which previously relied on cash or third-party apps like Bkash.</li>
+                <li>Simplified the payment process for Leading University, which previously relied on cash or
+                    third-party apps like Bkash.</li>
             </ul>
         </div>
 
@@ -200,4 +258,5 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
+
 </html>
