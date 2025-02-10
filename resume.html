@@ -8,70 +8,36 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background-color: #f8f9fa;
+            font-family: 'Times New Roman', Times, serif;
+            background-color: #ffffff;
             margin: 0;
-            padding: 20px;
+            padding: 40px;
         }
 
         .resume-container {
             width: 100%;
-            max-width: 800px;
-            padding: 20px;
+            max-width: 850px;
             margin: auto;
-            background-color: white;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            position: relative;
-            overflow: hidden;
+            background-color: #ffffff;
+            padding: 40px;
+            border: 1px solid #000;
         }
 
         .resume-header {
             text-align: center;
-            margin-bottom: 20px;
+            margin-bottom: 30px;
         }
 
         .resume-header h1 {
             margin: 0;
-            font-size: 2rem;
+            font-size: 28px;
+            font-weight: bold;
         }
 
         .resume-header p {
             margin: 5px 0;
-            font-size: 1rem;
+            font-size: 14px;
         }
-
-        .resume-section {
-            margin-bottom: 20px;
-        }
-
-        .resume-section h5 {
-            border-bottom: 2px solid #ddd;
-            padding-bottom: 5px;
-            margin-bottom: 10px;
-            font-weight: bold;
-        }
-
-        .resume-section ul {
-            list-style-type: disc;
-            padding-left: 20px;
-        }
-
-        .resume-section ul li {
-            margin-bottom: 5px;
-        }
-
-        .project-name {
-            font-weight: bold;
-        }
-
-        .nav-link {
-            cursor: pointer;
-        }
-
-        .resume-container:hover {
-            cursor: pointer;
-        }
-
 
         nav {
             text-align: center;
@@ -91,49 +57,57 @@
             background-color: #ddd;
         }
 
-        header {
-            background: #fff;
-            padding: 20px 0;
-            border-bottom: 1px solid #ddd;
+        .resume-section {
+            margin-bottom: 25px;
         }
 
-        .header-container {
-            width: 80%;
-            margin: auto;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
+        .resume-section h5 {
+            font-size: 18px;
+            font-weight: bold;
+            border-bottom: 2px solid #000;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
         }
 
-        header h3 {
-            margin: 0;
-            font-size: 1.8em;
-            color: #333;
+        .resume-section ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+
+        .resume-section ul li {
+            margin-bottom: 8px;
+            font-size: 14px;
+        }
+
+        .resume-section p, .resume-section ul li {
+            font-size: 14px;
+            line-height: 1.6;
+        }
+
+        a {
+            color: #000;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
         }
 
         @media (max-width: 768px) {
+            body {
+                padding: 20px;
+            }
+
             .resume-container {
-                padding: 10px;
+                padding: 20px;
             }
 
             .resume-header h1 {
-                font-size: 1.5rem;
-            }
-
-            .resume-header p {
-                font-size: 0.9rem;
+                font-size: 24px;
             }
 
             .resume-section h5 {
-                font-size: 1.2rem;
-            }
-
-            .resume-section ul {
-                padding-left: 15px;
-            }
-
-            .resume-section ul li {
-                font-size: 0.9rem;
+                font-size: 16px;
             }
         }
     </style>
@@ -141,122 +115,90 @@
 
 <body>
 
-    <header>
-        <div class="header-container">
-            <h3>Tanvir Ahmed Shakib</h3>
-        </div>
-    </header>
     <nav>
         <a href="index.html">Home</a>
         <a href="projects.html">Projects</a>
         <a href="contact.html">Contact</a>
     </nav>
 
-
-
-    <div class="resume-container" onclick="window.location.href='Files/Resume_TanvirAhmedShakib.pdf';">
+    <div class="resume-container">
         <div class="resume-header">
             <h1>Tanvir Ahmed Shakib</h1>
-            <p>1090 Walnut Woods Ct, San Jose, CA 95122 | (669) 260-4639 | tanvirahmedshakib@gmail.com</p>
-            <p><a href="https://www.linkedin.com/in/tanvirshakib/">linkedin.com/in/tanvirshakib</a> | <a
-                    href="https://github.com/tanvirshakib">github.com/tanvirshakib</a></p>
+            <p>San Jose, CA 95122 | (341) 252-9930 | tanvirahmedshakib@gmail.com</p>
+            <p><a href="http://linkedin.com/in/tanvirshakib">LinkedIn</a> | <a href="http://github.com/tanvirshakib">GitHub</a></p>
         </div>
 
         <div class="resume-section">
             <h5>Professional Summary</h5>
-            <p>Dedicated web developer with extensive experience in full-stack and mobile application development,
-                specializing in Django, React, and Flutter. Proven track record of building robust web applications and
-                mobile solutions, and leading successful projects for new businesses. Strong problem-solving skills, a
-                passion for continuous learning, and a versatile skill set that includes backend, frontend, and graphic
-                design.</p>
+            <p>Strategic and intuitive Web Developer who holds a Master’s Degree in Computer Science with experience in full-stack and mobile application development, specializing in Django, React, and Flutter. Brings technical strengths in building web applications and mobile solutions to lead successful projects for businesses with skill sets including backend, frontend, and graphic design. An effective communicator who works collaboratively with project stakeholders to establish requirements, scopes, and deliverables.</p>
         </div>
 
         <div class="resume-section">
             <h5>Education</h5>
-            <p><strong>Master of Science in Computer Science</strong> <br> San Francisco Bay University, San Francisco,
-                CA <br> Expected Graduation: August 2024</p>
-            <p><strong>Bachelor of Science in Computer Science and Engineering</strong> <br> Leading University, Sylhet,
-                Bangladesh <br> Graduated: September 2022</p>
+            <p><strong>San Francisco Bay University</strong>, San Francisco, CA<br>Master of Science in Computer Science<br>Graduated: Aug 2024</p>
+            <p><strong>Leading University</strong>, Sylhet, Bangladesh<br>Bachelor of Science in Computer Science and Engineering<br>Graduated: Sept 2022</p>
         </div>
 
         <div class="resume-section">
-            <h5>Skills Summary</h5>
+            <h5>Work Experience</h5>
+            <p><strong>Veggie Chilli LLC</strong>, Fremont, CA<br><em>Web Application Developer</em><br>Jan 2025 – Present</p>
             <ul>
-                <li>Programming Languages: Python, Java, JavaScript, SQL, Dart</li>
-                <li>Frameworks: Flutter, Django, React, Flask</li>
-                <li>Tools: Git, Firebase, Photoshop, Adobe Illustrator</li>
-                <li>Technologies: RESTful APIs, Android development using Java, Java Swing</li>
-                <li>Platforms: Windows, Android, Visual Studio Code, IntelliJ IDEA, Eclipse, Android Studio</li>
-                <li>Soft Skills: Team Leadership, Problem Solving, Communication, Report Building</li>
+                <li>Maintaining the existing website and managing all online ordering systems to ensure seamless operations, while implementing features that streamline technical processes like automated order processing and content management.</li>
+                <li>Building a new, user-friendly web application using Django, focused on enhancing the customer experience with interactive, intuitive features tailored for catering services in the Bay Area.</li>
             </ul>
-        </div>
-
-        <div class="resume-section">
-            <h5>Professional Experience</h5>
-            <p><strong>Mobile Application Developer | Flamma Soft, Paterson, New Jersey | Remote</strong> <br> June 2022
-                - November 2022</p>
+            <p><strong>Flamma Soft</strong>, Paterson, New Jersey | Remote<br><em>Mobile Application Developer</em><br>June 2022 – Nov 2022</p>
             <ul>
-                <li>Designed and developed mobile applications using Flutter and Dart, primarily for new businesses.
-                </li>
-                <li>Collaborated with clients to gather requirements and translate them into functional, user-friendly
-                    mobile applications.</li>
+                <li>Partnered with new businesses to develop mobile applications using Flutter and Dart, collaborating with clients to gather requirements, establish budgets and objectives, and translate them into functional mobile applications.</li>
+                <li>Conducted testing and debugging of application functionality to verify performance, reliability, and user experience, proactively identifying and resolving issues to maintain quality standards.</li>
             </ul>
-            <p><strong>Digital Designer | Staff Asia, Sylhet, Bangladesh</strong> <br> October 2020 - May 2021</p>
+            <p><strong>Staff Asia</strong>, Sylhet, Bangladesh<br><em>Digital Designer</em><br>Oct 2020 – May 2021</p>
             <ul>
-                <li>Designed and developed engaging slides using Articulate software based on provided content.</li>
-                <li>Collaborated with cross-functional teams to gather requirements and deliver visually appealing
-                    solutions.</li>
-                <li>Managed and updated website content using WordPress, including designing and uploading new
-                    materials.</li>
+                <li>Collaborated with cross-functional teams to gather project requirements and creatively design slides using Articulate.</li>
+                <li>Updated website content using WordPress, designing and uploading new materials while adhering to brand guidelines and enhancing consumer engagement.</li>
             </ul>
         </div>
 
         <div class="resume-section">
-            <h5>Projects</h5>
-            <p><strong>Book Review API Project for Web Services Techniques and REST Technologies class, 2024</strong>
-            </p>
+            <h5>Academic Projects</h5>
+            <p><strong>Book Review API Project</strong> for Web Services Techniques and REST Technologies Class, 2024</p>
             <ul>
-                <li>Designed and implemented a RESTful API for managing book reviews using Django.</li>
-                <li>Features included user authentication, CRUD operations, and search functionalities.</li>
+                <li>Designed a RESTful API for managing book reviews using Django, improving user interaction and data management, with features including user authentication, CRUD operations, and search functionalities.</li>
             </ul>
-            <p><strong>FoodieBot - AI-Powered Restaurant Web App Project for Capstone Project, 2024</strong></p>
+            <p><strong>FoodieBot – AI-Powered Restaurant Web App</strong> for Capstone Project, 2024</p>
             <ul>
-                <li>Architected and developed a comprehensive restaurant management system featuring an AI chatbot for
-                    seamless user interaction.</li>
-                <li>Enabled users to place orders, reserve tables, and submit reviews through an intuitive web
-                    interface.</li>
-                <li>Equipped admin panel with capabilities to manage menu items, process reservations, and oversee
-                    orders efficiently.</li>
-                <li>Integrated AI chatbot to streamline customer service and automate common inquiries.</li>
-                <li>Enhanced operational efficiency and user experience, providing a holistic solution for modern
-                    restaurant management.</li>
+                <li>Developed a restaurant management system featuring an AI chatbot to enhance user experience with integrated functions to place orders, reserve tables, and submit reviews.</li>
+                <li>Designed an admin panel to manage menu items, process reservations, and oversee orders, enhancing operational efficiency and providing a holistic solution for modern restaurant management.</li>
             </ul>
-            <p><strong>LU (Leading University) Classroom Project for final year project, 2022</strong></p>
+            <p><strong>LU Classroom Project</strong>, 2022</p>
             <ul>
-                <li>Created a classroom management system similar to Google Classroom using Django.</li>
-                <li>Features included user authentication, course management, assignments, and grading.</li>
+                <li>Developed a classroom management system similar to Google Classroom using Django, incorporating features such as user authentication, course management, assignments, and grading.</li>
             </ul>
-            <p><strong>Pay Fee Project for third year project, 2021</strong></p>
+            <p><strong>Pay Fee Project</strong>, 2021</p>
             <ul>
-                <li>Developed an Android application using Java to help students pay tuition fees electronically.</li>
-                <li>Simplified the payment process for Leading University, which previously relied on cash or
-                    third-party apps like Bkash.</li>
+                <li>Developed an Android application using Java to simplify the tuition fee payment process for students, transitioning from cash and third-party apps.</li>
             </ul>
         </div>
 
         <div class="resume-section">
             <h5>Certifications</h5>
             <ul>
-                <li>Mobile Application Development with Flutter | Ostad | Issued June 2024</li>
-                <li>Learn Flutter and Dart to create Android and iOS apps | Udemy | Issued June 2022</li>
-                <li>Graphic Designer | Sylhet IT Aid | Issued June 2019</li>
+                <li>Ostad – Mobile Application Development with Flutter, June 2024</li>
+                <li>Udemy – Learn Flutter and Dart to create Android and iOS apps, June 2022</li>
+                <li>Sylhet IT Aid – Graphic Designer, June 2019</li>
+            </ul>
+        </div>
+
+        <div class="resume-section">
+            <h5>Technical Skills</h5>
+            <ul>
+                <li>Programming Languages: Python, Java, JavaScript, SQL, Dart</li>
+                <li>Frameworks: Flutter, Django, React, Flask</li>
+                <li>Technologies & Tools: Git, Firebase, Photoshop, Adobe Illustrator, RESTful APIs, Java Swing</li>
+                <li>Platforms: Windows, Android, Visual Studio Code, IntelliJ IDEA, Eclipse, Android Studio</li>
             </ul>
         </div>
     </div>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 
 </html>
